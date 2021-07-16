@@ -1,10 +1,12 @@
 // Square -> Integromat -> Google Sheets -> CSV collation of order picklist
 
+const config = require('./config');
 const fs = require('fs');
 const readline = require('readline');
 
 async function processLineByLine() {
-  const fileStream = fs.createReadStream('/Users/chrisnewman/desktop/orders.txt');
+
+  const fileStream = fs.createReadStream(config.INPUT_FILE_PATH);
 
   const rl = readline.createInterface({
     input: fileStream,
