@@ -12,6 +12,7 @@ The program is simple and brittle right now, expecting /Users/chrisnewman/deskto
 To run:
 
 ```shell
+npm install
 npm start
 ```
 
