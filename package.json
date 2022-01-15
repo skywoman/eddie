@@ -2,7 +2,8 @@
   "name": "eddie",
   "version": "0.0.1",
   "description": "Various efficiency scripts for the farm",
-  "main": "generatepicklist.js",
+  "main": "readsquare.js",
+  "type": "module",
   "contributors": [
     "Chris Newman <farmers@sylvanaqua.com> (https://www.patreon.com/skywoman/)",
     "Jamie Gaehring <gaehj457@gmail.com> (https://jgaehring.com)"
