@@ -1,0 +1,29 @@
+{
+  "name": "eddie",
+  "version": "0.0.1",
+  "description": "Various efficiency scripts for the farm",
+  "main": "generatepicklist.js",
+  "contributors": [
+    "Chris Newman <farmers@sylvanaqua.com> (https://www.patreon.com/skywoman/)",
+    "Jamie Gaehring <gaehj457@gmail.com> (https://jgaehring.com)"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somethingelse-skywoman/eddie.git"
+  },
+  "keywords": [
+    "agriculture",
+    "ecommerce",
+    "farming",
+    "skywoman"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/somethingelse-skywoman/eddie/issues"
+  },
+  "homepage": "https://github.com/somethingelse-skywoman/eddie#readme"
+}
