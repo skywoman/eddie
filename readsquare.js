@@ -100,7 +100,7 @@ function addLineItemsToMap(order){
 	}
 }
 
-async function main() {
+export default async function readSquare() {
 	const ordersResultsArray = await searchOrders();
 
 	for(let h = 0; h < ordersResultsArray.length; h++){
@@ -114,20 +114,13 @@ async function main() {
 		}
 	}
 
-	finishUp();
-}
-
-function finishUp(){
-	console.log(sortObjectByKeys(map));
-	console.log("\n");
-	console.log("TOTAL VALUE: $" + totalPurchaseValue.toFixed(2));
-	console.log("\n");
+	return sortObjectByKeys(map);
 }
 
 function sortObjectByKeys(o) {
     return Object.keys(o).sort().reduce((r, k) => (r[k] = o[k], r), {});
 }
 
-main();
-
-
+export function readSquareTotal() {
+	return totalPurchaseValue;
+}
