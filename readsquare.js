@@ -1,10 +1,19 @@
-// To run: node -r esm readsquare.js
-
+import dotenv from 'dotenv';
 import { Client, Environment } from 'square'
+
+/**
+ * If a token has not already been assigned as an env var (via CLI, etc),
+ * dotenv will look for a .env file, which can be added to root and will be
+ * ignored by git.
+ * @see https://nodejs.dev/learn/how-to-read-environment-variables-from-nodejs
+ */
+if (!process.env.SQUARE_ACCESS_TOKEN) {
+	dotenv.config();
+}
 
 const client = new Client({
   environment: Environment.Production,
-  accessToken: 'EAAAEBGg1WiL0W_vVcoclENFIWmmcifaSgE-3JgLJS1w7SjMt8HbsPzMPRoYuqh2',
+  accessToken: process.env.SQUARE_ACCESS_TOKEN,
 })
 
 const ordersApi = client.ordersApi;
