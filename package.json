@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/somethingelse-skywoman/eddie/issues"
   },
-  "homepage": "https://github.com/somethingelse-skywoman/eddie#readme"
+  "homepage": "https://github.com/somethingelse-skywoman/eddie#readme",
+  "dependencies": {
+    "square": "^17.0.0"
+  }
 }
