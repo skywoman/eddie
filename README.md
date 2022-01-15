@@ -9,7 +9,11 @@ Integromat imports orders from Square and saves them in a Google sheet that is u
 
 The program is simple and brittle right now, expecting /Users/chrisnewman/desktop/orders.txt as the input file.
 
-To run: > node generatepicklist.js
+To run:
+
+```shell
+npm start
+```
 
 --------
 
