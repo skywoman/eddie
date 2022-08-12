@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/somethingelse-skywoman/eddie.git"
+    "url": "git+https://github.com/skywoman/eddie.git"
   },
   "keywords": [
     "agriculture",
@@ -25,9 +25,9 @@
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/somethingelse-skywoman/eddie/issues"
+    "url": "https://github.com/skywoman/eddie/issues"
   },
-  "homepage": "https://github.com/somethingelse-skywoman/eddie#readme",
+  "homepage": "https://github.com/skywoman/eddie#readme",
   "dependencies": {
     "dotenv": "^12.0.3",
     "square": "^17.0.0"
